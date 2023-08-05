@@ -4,8 +4,8 @@ import bodyParser from "body-parser"
 import cors from "cors"
 
 const amadeus = new Amadeus({
-  clientId: 'KcWTP1iOAdlnmgbNaswnlwtJV2tCjyDR',
-  clientSecret: 'Iuqe7z8ndSg0qh0x',
+  clientId: 'your-client-id',
+  clientSecret: 'your-secret-id',
 });
 
 const app = express();
